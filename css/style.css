@@ -1,0 +1,1180 @@
+.img {
+    width: 100%;
+    height: 100%;
+}
+
+/*box_2 명암 버전의 크기 조정을 위한 클래스*/
+.fit {
+    width: 592.2px;
+    height: 368.61px;
+}
+
+.switch {
+    width: 50px;
+    height: 66px;
+    background-color: black;
+    opacity: 0;
+    position: absolute;
+    bottom: 46px;
+    left: 424px;
+}
+
+
+.here {
+    width: 60px;
+    height: 60px;
+    border: 7px solid rgb(134, 216, 248);
+    position: absolute;
+    bottom: 49px;
+    left: 420px;
+    border-radius: 30%;
+    animation-name: here_ani;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    transition: all ease-in-out;
+}
+
+@keyframes here_ani {
+    0% {
+        opacity : 0.4;
+    }
+    50% {
+        opacity : 1;
+    }
+    100% {
+        opacity : 0.4;
+    }
+}
+
+/*전체 영역*/
+
+.box {
+    width : 1175.25px;
+    height : 768px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*첫 화면 커버*/
+
+.cover_1 {
+    width:575.2px;
+    height:249.05px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.cover_2 {
+    width:575.2px;
+	height:364.61px;
+    position: absolute;
+    bottom: 155px;
+    right: 0px;
+}
+
+.cover_3 {
+    width: 600.05px;
+    height: 373.78px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.cover_4 {
+    width: 600.05px;
+    height: 239.88px;
+    position: absolute;
+    bottom: 155px;
+    left: 0px;
+}
+
+.cover_5 {
+    width: 1175.25px;
+    height: 154.35px;
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+}
+
+/*일러스트 박스*/
+
+.box_1 {
+    width:575.2px;
+    height:249.05px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.box_2 {
+    width:575.2px;
+	height:364.61px;
+    position: absolute;
+    bottom: 155px;
+    right: 0px;
+}
+
+.box_3 {
+    width: 600.05px;
+    height: 373.78px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.box_4 {
+    width: 600.05px;
+    height: 239.88px;
+    position: absolute;
+    bottom: 155px;
+    left: 0px;
+}
+
+.box_5 {
+    width: 1175.25px;
+    height: 154.35px;
+    position: absolute;
+    bottom: 1px;
+    left: 0px;
+}
+
+/*오브젝트들*/
+
+.Obox_1 {
+    width: 44.01px;
+	height: 50.53px;
+    position: absolute;
+    top: 148.5px;
+    right: 218.76px;
+}
+
+.Obox_12 {
+    width: 52.17px;
+	height: 90.22px;
+    position: absolute;
+    top: 60px;
+    right: 208px;
+}
+
+.Obox_13 {
+    width: 61.54px;
+	height: 97.35px;
+    position: absolute;
+    top: 79px;
+    right: 79px;
+}
+
+.Obox_14 {
+    width: 14.88px;
+	height: 76.35px;
+    position: absolute;
+    top: 100px;
+    right: 75px;
+}
+
+.Obox_15 {
+    width: 38.6px;
+    height: 87.13px;
+    position: absolute;
+    top: 89px;
+    right: 33px;
+}
+
+.Obox_16 {
+    width: 575.2px;
+    height: 249.05px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.Obox_17 {
+    width: 575.2px;
+    height: 249.05px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+
+
+.Obox_21 {
+    width: 114.89px;
+    height: 166.5px;
+    position: absolute;
+    bottom: 169px;
+    right: 445px;
+}
+
+.Obox_22 {
+    width: 98.36px;
+	 height: 158.36px;
+    position: absolute;
+    bottom: 168px;
+    right: 353px;
+}
+
+.Obox_23 {
+    width: 86.4px;
+	height: 147.35px;
+    position: absolute;
+    bottom: 168px;
+    right: 268px;
+}
+
+.Obox_24 {
+    width: 76.65px;
+	height: 123.07px;
+    position: absolute;
+    bottom: 170px;
+    right: 192px;
+}
+
+.Obox_25 {
+    width: 174.56px;
+    height: 228.63px;
+    position: absolute;
+    bottom: 410px;
+    right: -140px;
+}
+
+.Obox_26 {
+    width: 35.3px;
+	height: 35.95px;
+    position: absolute;
+    bottom: 190px;
+    right: 61px;
+}
+
+.Obox_27 {
+    width: 32.44px;
+	height: 36.84px;
+    position: absolute;
+    bottom: 460px;
+    right: 466px;
+}
+
+.Obox_28 {
+    width: 69.73px;
+	height: 57.02px;
+    position: absolute;
+    bottom: 380px;
+    right: 473px;
+}
+
+.Obox_29 {
+    width: 575.33px;
+    height: 374.58px;
+    position: absolute;
+    bottom: 155px;
+    right: 0px;
+}
+
+.Obox_210 {
+    width: 14.97px;
+	height: 97.9px;
+    position: absolute;
+    bottom: 393px;
+    right: -14px;
+}
+
+.Obox_31 {
+    width: 56.68px;
+	height: 215.13px;
+    position: absolute;
+    top: 146px;
+    left: 341px;
+}
+
+.Obox_32 {
+    width: 47.57px;
+	height: 183.28px;
+    position: absolute;
+    top: 177px;
+    left: 410px;
+}
+
+.Obox_33 {
+    width: 45.89px;
+	 height: 159.69px;
+    position: absolute;
+    top: 201px;
+    left: 475px;
+}
+
+.Obox_34 {
+    width: 33.58px;
+	 height: 108.22px;
+    position: absolute;
+    top: 252px;
+    left: 538px;
+}
+
+.Obox_35 {
+    width: 178.07px;
+    height: 231.11px;
+    position: absolute;
+    top: 145px;
+    left: -115px;
+}
+
+.Obox_36 {
+    width: 175.22px;
+    height: 152.6px;
+    position: absolute;
+    top: 10px;
+    left: -44px;
+}
+
+.Obox_37 {
+    width: 118.81px;
+    height: 90.71px;
+    position: absolute;
+    top: 110px;
+    left: 15px;
+}
+
+.Obox_38 {
+    width: 18.32px;
+	height: 134.2px;
+    position: absolute;
+    top: 43px;
+    left: 545px;
+}
+
+.Obox_39 {
+    width: 18.32px;
+	 height: 107.2px;
+    position: absolute;
+    top: 43px;
+    left: 502px;
+}
+
+.Obox_310 {
+    width: 18.32px;
+	height: 77.2px;
+    position: absolute;
+    top: 43px;
+    left: 458px;
+}
+
+.Obox_311 {
+    width: 34.35px;
+	 height: 147.6px;
+    position: absolute;
+    top: 44px;
+    left: 537px;
+}
+
+.Obox_312 {
+    width: 34.35px;
+	height: 120.6px;
+    position: absolute;
+    top: 44px;
+    left: 494px;
+}
+
+.Obox_313 {
+    width:34.35px;
+    height: 90.6px;
+    position: absolute;
+    top: 44px;
+    left: 450px;
+}
+
+.Obox_314 {
+    width: 135.03px;
+    height: 201.89px;
+    position: absolute;
+    top: 0px;
+    left: 214px;
+}
+
+
+.Obox_41 {
+    width: 50.75px;
+	height: 177.51px;
+    position: absolute;
+    bottom: 310px;
+    left: 261px;
+}
+
+.Obox_42 {
+    width: 115.24px;
+    height: 222.89px;
+    position: absolute;
+    bottom: 156.5px;
+    left: 112.2px;
+}
+
+.Obox_43 {
+    width: 196.29px;
+    height: 48.31px;
+    position: absolute;
+    bottom: 314px;
+    left: 404px;
+}
+
+.Obox_44 {
+    width: 196.29px;
+    height: 48.31px;
+    position: absolute;
+    bottom: 314px;
+    left: 404px;
+}
+
+.Obox_45 {
+    width: 504.44px;
+    height: 336.3px;
+    position: absolute;
+    bottom: 154.7px;
+    left: 53px;
+}
+
+
+.Obox_51 {
+    width: 266.42px;
+    height: 44.3px;
+    position: absolute;
+    bottom: 46px;
+    left: 89px;
+}
+
+.Obox_52 {
+    width: 331.9px;
+	 height: 154.65px;
+    position: absolute;
+    bottom: 0px;
+    left: 142px;
+}
+
+.Obox_53 {
+    width: 108.26px;
+    height: 78.27px;
+    position: absolute;
+    bottom: 65px;
+    left: 478px;
+}
+
+.Obox_54 {
+    width: 108.26px;
+    height: 78.27px;
+    position: absolute;
+    bottom: 65px;
+    left: 478px;
+}
+
+.Obox_55 {
+    width: 32.02px;
+	height: 154.34px;
+    position: absolute;
+    bottom: 1px;
+    left: 433px;
+}
+
+.Obox_56 {
+    width: 32.02px;
+	height: 154.3px;
+    position: absolute;
+    bottom: 1px;
+    left: 433px;
+}
+
+.Obox_57 {
+    width: 55.46px;
+	height: 15.65px;
+    position: absolute;
+    bottom: 46px;
+    left: 85px;
+}
+
+/*애니메이션 적용 클래스*/
+
+.OboxAni_man {
+    animation-name: manAni;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transition: all ease-in-out;
+}
+@keyframes manAni {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.OboxAni_1 {
+    animation-name: Ani_1;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    transition: all ease-out;
+}
+@keyframes Ani_1 {
+    0% {
+        right: 218.76px;
+    }
+    50% {
+        right: 210px;
+    }
+    100% {
+        right: 218.76px;
+    }
+}
+
+.OboxAni_12 {
+    animation-name: Ani_12;
+    animation-iteration-count: infinite;
+    animation-duration: 1.5s;
+    transition: all ease-in;
+}
+@keyframes Ani_12 {
+    0% {
+        top: 60px;
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        top: 40px;
+        opacity: 0;
+    }
+}
+
+.OboxAni_13 {
+    animation-name: Ani_13;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_13 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: right bottom;
+    }
+    50% {
+        transform: rotate(-5deg);
+        transform-origin: right bottom;
+
+    }
+    100% {
+        transform: rotate(0deg);
+        transform-origin: right bottom;
+    }
+}
+
+.OboxAni_14 {
+    animation-name: Ani_14;
+    animation-iteration-count: infinite;
+    animation-duration: 2.3s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_14 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: right bottom;
+    }
+    50% {
+        transform: rotate(2deg);
+        transform-origin: right bottom;
+
+    }
+    100% {
+        transform: rotate(0deg);
+        transform-origin: right bottom;
+    }
+}
+
+.OboxAni_15 {
+    animation-name: Ani_15;
+    animation-iteration-count: infinite;
+    animation-duration: 2.5s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_15 {
+    0% {
+        transform: rotate(0deg);
+        transform-origin: left bottom;
+    }
+    50% {
+        transform: rotate(8deg);
+        transform-origin: left bottom;
+
+    }
+    100% {
+        transform: rotate(0deg);
+        transform-origin: left bottom;
+    }
+}
+
+.OboxAni_16 {
+    animation-name: Ani_16;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    transition: all ease-in;
+}
+@keyframes Ani_16 {
+    20% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+}
+
+.OboxAni_16_s {
+    animation-name: Ani_16_s;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    transition: all ease-in;
+}
+@keyframes Ani_16_s {
+    0% {
+        opacity: 0.2;
+    }
+    20% {
+        opacity: 0.2;
+    }
+    50% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0.2;
+    }
+}
+
+.OboxAni_17 {
+    animation-name: Ani_17;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    transition: all ease-in;
+}
+@keyframes Ani_17 {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.OboxAni_17_s {
+    animation-name: Ani_17_s;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    transition: all ease-in;
+}
+@keyframes Ani_17_s {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.2;
+    }
+    70% {
+        opacity: 0.2;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.OboxAni_25 {
+    animation-name: Ani_25;
+    animation-iteration-count: infinite;
+    animation-duration: 5s;
+    transition: all ease-out;
+}
+@keyframes Ani_25 {
+    0% {
+        bottom: 410px;
+        right: -140px;
+    }
+    30% {
+        opacity: 1;
+        transform: rotate(-10deg);
+    }
+    90% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+        bottom: 540px;
+        right: -200px;
+    }
+}
+
+.OboxAni_26 {
+    animation-name: Ani_26;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_26 {
+    0% {
+        bottom: 190px;
+        right: 61px;
+    }
+    10% {
+        bottom: 190px;
+        right: 61px;
+        transform: rotate(60deg);
+    }
+    20% {
+        bottom: 213px;
+        right: 80px;
+        transform: rotate(60deg);
+    }
+    30% {
+        bottom: 213px;
+        right: 80px;
+        transform: rotate(200deg);
+    }
+    50% {
+        bottom: 273px;
+        right: 30px;
+        transform: rotate(200deg);
+    }
+    60% {
+        bottom: 273px;
+        right: 30px;
+        transform: rotate(330deg);
+    }
+    100% {
+        bottom: 190px;
+        right: 61px;
+        transform: rotate(330deg);
+    }
+}
+
+.OboxAni_27 {
+    animation-name: Ani_27;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all ease-in;
+}
+@keyframes Ani_27 {
+    10% {
+        transform: rotate(-90deg);
+        bottom: 460px;
+        right: 466px;
+    }
+    50% {
+        bottom: 480px;
+        right: 536px;
+        transform: rotate(-90deg);
+    }
+    60% {
+        transform: rotate(90deg);
+        bottom: 480px;
+        right: 536px;
+    }
+    90% {
+        transform: rotate(90deg);
+        bottom: 460px;
+        right: 466px;
+    }
+    100% {
+        bottom: 460px;
+        right: 466px;
+    }
+}
+
+.OboxAni_28 {
+    animation-name: Ani_28;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_28 {
+    0% {
+        transform: scale(1);
+        transform-origin: center bottom;
+    }
+    50% {
+        transform: scale(1.05);
+        transform-origin: center bottom;
+    }
+    100% {
+        transform: scale(1);
+        transform-origin: center bottom;
+    }
+}
+
+.OboxAni_29 {
+    animation-name: Ani_29;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_29 {
+    0% {
+        opacity: 1
+    }
+    50% {
+        opacity: 0
+    }
+    70% {
+        opacity: 1
+    }
+    100% {
+        opacity: 1
+    }
+}
+
+
+.OboxAni_35 {
+    animation-name: Ani_35;
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_35 {
+    50% {
+        transform: scale(1.05);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+.OboxAni_36 {
+    animation-name: Ani_36;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_36 {
+    50% {
+        transform: rotate(-5deg);
+        transform-origin: center bottom;
+    }
+}
+
+.OboxAni_37 {
+    animation-name: Ani_37;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_37 {
+    70% {
+        transform: rotate(5deg);
+        transform-origin: center bottom;
+    }
+}
+
+.OboxAni_311 {
+    animation-name: Ani_311;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all ease-in;
+}
+@keyframes Ani_311 {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.OboxAni_312 {
+    animation-name: Ani_312;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all ease-in;
+}
+@keyframes Ani_312 {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.OboxAni_313 {
+    animation-name: Ani_313;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all ease-in;
+}
+@keyframes Ani_313 {
+    0% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.OboxAni_31x {
+    animation-name: Ani_31x;
+    animation-iteration-count: infinite;
+    animation-duration: 0.5s;
+    transition: all ease-in;
+}
+
+@keyframes Ani_31x {
+    0% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.OboxAni_314 {
+    animation-name: Ani_314;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_314 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+@keyframes Ani_314_s {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.OboxAni_42 {
+    animation-name: Ani_42;
+    animation-iteration-count: infinite;
+    animation-duration: 8s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_42 {
+    0% {
+        bottom: 156.5px;
+        left: 112.2px;
+    }
+    21% {
+        bottom: 156.5px;
+        left: 220.2px;
+    }
+    49% {
+        bottom: 156.5px;
+        left: 220.2px;
+    }
+    70% {
+        bottom: 156.5px;
+        left: 112.2px;
+    }
+    100% {
+        bottom: 156.5px;
+        left: 112.2px;
+    }
+}
+
+.OboxAni_44 {
+    animation-name: Ani_44;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_44 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+
+.OboxAni_52 {
+    animation-name: Ani_52;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all ease-in;
+}
+@keyframes Ani_52 {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 0;
+    }
+    70% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.OboxAni_54 {
+    animation-name: Ani_54;
+    animation-iteration-count: infinite;
+    animation-duration: 4s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_54 {
+    0% {
+        opacity: 0;
+    }
+    40% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    80% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.OboxAni_56 {
+    animation-name: Ani_56;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+    transition: all ease-in-out;
+}
+@keyframes Ani_56 {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    70% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+/*CLICK ANYWHERE 텍스트*/
+
+.t_ani {
+    font-size:  28px;
+    font-family: monospace;
+    position: absolute;
+    bottom: 9%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    animation-name: twinkle;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+
+@keyframes twinkle {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.copyright {
+    position: absolute;
+    bottom: 20;
+    left: 25;
+    font-size: 12px;
+    opacity: 0.3;
+}
